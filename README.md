@@ -1,0 +1,23 @@
+Šis darbs tika izstrādāts Unity 2D vidē kā praktisks ieskaites projekts, kura mērķis bija padziļināti apgūt lietotāja saskarnes (UI) elementu izmantošanu un savstarpējo darbību vienotas sistēmas ietvaros. Projekta ideja balstās uz interaktīvas lietotnes izveidi, kurā lietotājs var veikt vairākas darbības – ievadīt savus datus, izvēlēties tēlu un pielāgot tā vizuālo izskatu, izmantojot dažādus saskarnes komponentus. Darba gaitā tika pielietoti vairāki Unity UI elementi, tostarp teksta lauki, attēli, pogas, pārslēgi (toggle), slīdņi (slider), nolaižamās izvēlnes (dropdown), ievades lauki (input field) un ritināmie logi (scroll view).
+
+Projekts sastāv no vairākām ainām, no kurām viena ir sākuma aina. Tajā lietotājam tiek piedāvāta vienkārša izvēle – uzsākt darbu ar lietotni vai to aizvērt. Šī aina nodrošina lietotāja navigāciju un pāreju uz galveno darba vidi. Ainu pārslēgšana tika realizēta, izmantojot Unity SceneManager funkcionalitāti, kas ļauj efektīvi pārvaldīt vairākas lietotnes sadaļas.
+
+Galvenajā ainā tika izveidota lietotāja datu ievades sistēma. Lietotājam ir iespēja ievadīt savu vārdu un dzimšanas gadu, izmantojot ievades laukus. Lai nodrošinātu korektu datu apstrādi, dzimšanas gada laukā tika ierobežota ievade tikai uz skaitliskām vērtībām. Pēc datu ievades lietotājs var nospiest pogu, kas aktivizē vecuma aprēķināšanas funkciju. Aprēķinātais rezultāts tiek attēlots teksta laukā, tādējādi nodrošinot tūlītēju atgriezenisko saiti.
+
+Papildus datu ievadei lietotājam tiek piedāvāta iespēja izvēlēties tēlu, izmantojot nolaižamo izvēlni. Atkarībā no izvēlētā varianta tiek attēlots atbilstošs tēla vizuālais attēlojums. Šī funkcionalitāte demonstrē dinamisku UI elementu sasaisti ar vizuālo saturu.
+
+Lietotnē tika izveidota arī apģērbu sistēma, kas sadalīta vairākās kategorijās, piemēram, cepures, krekli, bikses un apavi. Katru kategoriju iespējams aktivizēt vai deaktivizēt, izmantojot pārslēgus. Aktivizējot konkrētu kategoriju, lietotājam kļūst pieejami attiecīgie apģērba elementi. Šāda pieeja ļauj strukturēti organizēt pieejamos objektus un padara lietotni pārskatāmāku.
+
+Apģērbu pielāgošanai tika realizēta drag and drop funkcionalitāte, kas ļauj lietotājam ar peli pārvietot izvēlētos elementus un novietot tos uz tēla. Katram apģērba veidam tika definēta atbilstoša novietošanas zona, kas nodrošina pareizu objekta izvietojumu. Kad apģērba elements tiek uzlikts uz tēla, tiek izveidota šī elementa kopija, savukārt sākotnējais objekts paliek pieejams izvēlnē. Tas nodrošina atkārtotu izmantojamību un novērš nepieciešamību atkārtoti ielādēt tos pašus elementus.
+
+Tēla pielāgošanas procesā tika iekļauta arī iespēja mainīt apģērba izmērus. Šim nolūkam tika izmantoti divi slīdņi – viens kontrolē objekta platumu, bet otrs augstumu. Slīdņi ietekmē pēdējo izvēlēto vai uzlikto apģērba elementu, ļaujot lietotājam to pielāgot individuālām vajadzībām. Izmēru maiņa tika realizēta, mainot objekta mērogu, kas nodrošina vienmērīgu un vizuāli korektu rezultātu.
+
+Lai papildinātu lietotāja pieredzi, tika izveidots ritināmais logs ar tēlu aprakstiem. Šajā logā tiek attēlots teksts, kas mainās atkarībā no izvēlētā tēla. Tas sniedz papildu informāciju un padara lietotni informatīvāku. Papildus tam tika integrēti skaņas elementi, piemēram, pogu nospiešanas efekti un fona mūzika. Skaņas tika realizētas, izmantojot AudioSource un AudioListener komponentes, kas nodrošina interaktīvāku lietotāja pieredzi.
+
+Projekta izstrādes laikā tika izmantota Git versiju kontroles sistēma, kas ļāva sistemātiski sekot līdzi izmaiņām un uzturēt koda struktūru. Darbs tika organizēts, regulāri veicot izmaiņu saglabāšanu un dokumentēšanu. Projekts tika publicēts GitHub platformā, nodrošinot tā pieejamību un iespēju pārskatīt izstrādes procesu.
+
+Lai nodrošinātu pārskatāmu un loģisku projekta struktūru, visi resursi tika sadalīti atsevišķās mapēs, piemēram, ainas, skripti, attēli un skaņas. Katrai funkcionalitātei tika izveidoti atsevišķi skripti, kas uzlabo koda saprotamību un atvieglo turpmāku attīstību vai labošanu.
+
+Darba noslēgumā projekts tika sagatavots izmantošanai ārpus Unity vides, eksportējot to uz Windows operētājsistēmu. Iegūtie faili tika arhivēti un iesniegti kopā ar saiti uz GitHub repozitoriju mācību e-vidē.
+
+Kopumā projekta izstrādes process sniedza vērtīgu praktisko pieredzi darbā ar Unity lietotāja saskarnes elementiem. Tika nostiprinātas zināšanas par lietotāja ievades apstrādi, UI elementu savstarpējo sasaisti un dinamisku objektu vadību. Tāpat tika attīstītas analītiskās un problēmu risināšanas prasmes, kā arī iegūta izpratne par pilnu programmatūras izstrādes ciklu – no idejas realizācijas līdz gatavam produktam.
